@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    Skout\Core\Http\Kernel::class
+    App\Core\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Skout\Core\Console\Kernel::class
+    App\Core\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    Skout\Core\Exceptions\Handler::class
+    App\Core\Exceptions\Handler::class
 );
 
 /*

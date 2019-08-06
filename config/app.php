@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Skout\Core\Providers\AppServiceProvider::class,
-        Skout\Core\Providers\AuthServiceProvider::class,
+        App\Core\Providers\AppServiceProvider::class,
+        App\Core\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        Skout\Core\Providers\EventServiceProvider::class,
-        Skout\Core\Providers\RouteServiceProvider::class,
+        App\Core\Providers\EventServiceProvider::class,
+        App\Core\Providers\RouteServiceProvider::class,
 
     ],
 
